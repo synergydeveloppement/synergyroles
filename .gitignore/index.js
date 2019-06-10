@@ -6,9 +6,8 @@ bot.on("ready",  () => {
     console.log(`${bot.guilds.size} et ${bot.users.size} `)
     bot.user.setPresence({
         game: {
-            name: 'Vous attribues des rôles ',
-            type: "STREAMING",
-            url: "https://www.twitch.tv/tv_synergy"
+            name: 'synergy-esport.com',
+            type: "playing"
         }
     });
 })
